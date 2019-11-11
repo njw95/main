@@ -129,7 +129,7 @@ The sections below give more details of each component.
 .Structure of the UI Component
 
 *API* :
-link:{repoURL}/blob/master/src/main/java/ui/Ui.java['Ui.java]
+link:{repoURL}/blob/master/src/main/java/ui/Ui.java['Ui.java`]
 
 The UI consists of a `MainWindow` that is made up of parts e.g.`CommandBox`, `ResultDisplay`, `PersonListPanel`, `StatusBarFooter` etc. All these, including the `MainWindow`, inherit from the abstract `UiPart` class.
 
@@ -186,6 +186,7 @@ As a more OOP model, we can store a `Tag` list in `Address Book`, which `Person`
 
 *API* :
 link:{repoURL}/blob/master/src/main/java/storage/Storage.java[`Storage.java`]
+
 The `Storage` component,
 
 * can save `word` objects in xlsx format and read it back.
