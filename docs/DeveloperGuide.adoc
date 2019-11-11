@@ -129,7 +129,7 @@ The sections below give more details of each component.
 .Structure of the UI Component
 
 *API* :
-link:{repoURL}/blob/master/src/main/java/ui/Ui.java['Ui.java`]
+link:{repoURL}/blob/master/src/main/java/ui/Ui.java[`Ui.java`]
 
 The UI consists of a `MainWindow` that is made up of parts e.g.`CommandBox`, `ResultDisplay`, `PersonListPanel`, `StatusBarFooter` etc. All these, including the `MainWindow`, inherit from the abstract `UiPart` class.
 
