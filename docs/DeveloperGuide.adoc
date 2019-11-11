@@ -128,7 +128,8 @@ The sections below give more details of each component.
 
 .Structure of the UI Component
 
-*API* : link:{repoURL}/src/main/java/seedu/address/ui/Ui.java[`Ui.java`]
+*API* :
+link:{repoURL}/src/main/java/ui/Ui.java
 
 The UI consists of a `MainWindow` that is made up of parts e.g.`CommandBox`, `ResultDisplay`, `PersonListPanel`, `StatusBarFooter` etc. All these, including the `MainWindow`, inherit from the abstract `UiPart` class.
 
@@ -143,8 +144,8 @@ The `UI` component,
 === Logic component
 
 *API* :
-link:{repoURL}/src/main/java/Command.java[`Command.java`]
-link:{repoURL}/src/main/java/Parser.java[`Parser.java`]
+link:{repoURL}/src/main/java/command/Command.java[`Command.java`]
+link:{repoURL}/src/main/java/parser/Parser.java[`Parser.java`]
 
 .Structure of the Command Class
 image::CommandClassDiagram.png[align='center']
@@ -163,7 +164,9 @@ Given below is the Sequence Diagram for interactions within the `Logic` componen
 
 .Structure of the Model Component
 
-*API* : link:{repoURL}/src/main/java/seedu/address/model/Model.java[`Model.java`]
+*API* :
+link:{repoURL}/src/main/java/dictionary/Bank.java[`Bank.java`]
+link:{repoURL}/src/main/java/dictionary/Word.java[`Word.java`]
 
 The `Model`,
 
@@ -182,7 +185,7 @@ As a more OOP model, we can store a `Tag` list in `Address Book`, which `Person`
 .Structure of the Storage Component
 
 *API* :
-
+link:{repoURL}/src/main/java/storage/Storage.java[`Storage.java`]
 The `Storage` component,
 
 * can save `word` objects in xlsx format and read it back.
