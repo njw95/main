@@ -144,7 +144,7 @@ The `UI` component,
 === Logic component
 
 *API* :
-link:{repoURL}/src/main/java/command/Command.java[`Command.java`]
+link:{repoURL}/blob/master/src/main/java/command/Command.java[`Command.java`]
 link:{repoURL}/src/main/java/parser/Parser.java[`Parser.java`]
 
 .Structure of the Command Class
@@ -185,7 +185,7 @@ As a more OOP model, we can store a `Tag` list in `Address Book`, which `Person`
 .Structure of the Storage Component
 
 *API* :
-link:{repoURL}/src/main/java/storage/Storage.java[`Storage.java`]
+link:{repoURL}/java/storage/Storage.java[`Storage.java`]
 The `Storage` component,
 
 * can save `word` objects in xlsx format and read it back.
