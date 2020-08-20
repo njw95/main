@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/AY1920S1-CS2113-T14-3/main.svg?branch=master)](https://travis-ci.org/AY1920S1-CS2113-T14-3/main)
 
-# WordUp (Testing Jenkins build update for devops-course)
+# WordUp (Testing Jenkins build for devops-course)
 
 **Welcome to your personal vocabulary builder app!**
 
